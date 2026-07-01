@@ -13,6 +13,6 @@ def test_find_average_equal_list():
     assert value == 5 #assert 
 
 def test_find_average_odd_numbers():
-    number_list = [2,3]
+    number_list = [2,3] #Arrange
     value =  find_average(number_list)
     assert value == 2.5
